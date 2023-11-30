@@ -1,0 +1,150 @@
+/* Edição do body e da imagem de fundo */
+body {
+    background-image: url('https://images2.imgbox.com/c8/85/ZijvlKfQ_o.png');
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Back do cabeçalho */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/* Imagem de cabeçalho da página inicial */
+header img {
+    width: 100%;
+    height: auto;
+}
+
+/* Fonte do cabeçalho dos outros html */
+h1 {
+    color: rgb(0, 0, 0);
+    padding: auto;
+    font-size: 2.3cm;
+    text-align: center;
+}
+
+/* Menu */
+nav ul {
+    background-color: #656464;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: static;
+    width: 100%;
+    top: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+/* LINKS, editor de cor */
+nav ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+}
+
+/* Personalização do link ao passar o mouse por cima */
+a:hover {
+    color: rgb(151, 157, 104);
+    text-decoration: double;
+}
+
+/* Conteúdo do texto principal */
+.conteudo {
+    padding: 25px;
+    text-align: justify;
+    font-size: 0.5cm;
+    margin-left: 300px;
+    background-color: beige;
+    line-height: 0.6cm;
+    width: 60%;
+}
+
+/* Mudo a cor do H3 */
+h3 {
+    color: #4a4949;
+}
+
+/* Edição da Coluna na direita */
+.coluna-direita {
+    float: left;
+    width: 17.6%;
+    background-color: rgb(206, 202, 174);
+    color: rgb(24, 24, 24);
+    padding: 20px;
+    font-size: 0.45cm;
+    position: sticky;
+    top: 0px;
+    text-align: justify;
+    line-height: 0.4cm;
+}
+
+/* Edição na citação */
+blockquote {
+    background-color: rgb(206, 202, 174);
+    color: rgb(8, 8, 8);
+    font-style: italic;
+    font-size: 0.cm;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* modo escuro */
+.dark-mode {
+    background-color: #090909;
+    color: #fef8f8;
+}
+
+.dark-mode header {
+    background-color: #0c0c0c;
+}
+
+.dark-mode h1 {
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #fdfdfd; /* Cor dos links  */
+}
+
+.dark-mode .conteudo {
+    background-color: #333; /* cor de fundo da main */
+}
+
+.dark-mode .coluna-direita {
+    background-color: #333; /* cor de fundo*/
+    color: #fffdfd;
+}
+
+.dark-mode h3 {
+    color: #fdfdfd;
+}
+
+.dark-mode blockquote { 
+    background-color: #090909;
+    color: #fdfdfd;
+}
+
+/* Estilo botão */
+.dark-mode-button {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-color: #fdfdfd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
